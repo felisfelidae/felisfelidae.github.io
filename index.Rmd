@@ -1,0 +1,25 @@
+--- 
+title: "Wayne National Forest Modeling Project"
+author: "Avery Merritt"
+date: "`r Sys.Date()`"
+site: bookdown::bookdown_site
+documentclass: book
+bibliography: [book.bib]
+biblio-style: apalike
+link-citations: yes
+
+---
+
+# Introduction {#intro}
+
+The culmination of my undergraduate studies, this project occupies the intersection of natural and computer sciences. As computation has grown more efficient and powerful over the past several decades, and the availability of data, particularly spatial, has ballooned past that which we have the ability to process, the work of ecological computing has become increasingly necessary. The effects of a changing climate need both be captured empirically by tracing through backdated spatial data and modeled into the future, so that landscape managers and those with a vested interest in the preservation of the natural world can plan for conservation and connectivity in the face of these incoming changes.
+
+The focus of this project has been the Ironton district of the Wayne National Forest, used as a representative sample for the 17-county area of interest which surrounds the three separate districts of the Wayne National Forest, the larger area singled out by forest managers. We sought to identify alternative management strategies which would facilitate the preservation of historically significant oak and hickory reserves on the landscape, as well as to assess wide-scale connectivity from the perspective of fauna reliant upon those signpost vegetative communities. Landscape models and vegetation data were sourced from the LANDFIRE project.
+
+This project was undertaken in partnership and with the generous leadership of Randy Swaty, of the Nature Conservancy and LANDFIRE, and with the academic oversight of Dr. Carri LeRoy, of the Evergreen State College. Special thanks extended to Kim Hall, Bronwyn Rayfield, Leonardo Frid, Kori Blankenship, Lisa Kluesner, Jim Smith, Melissa Clark, and the Conservation Data Lab, without whose support this work would not have been possible. 
+
+Work for this project was done in Syncrosim (state-and-transition modeling software produced by ApexRMS), ArcGIS Pro (mapping software produced by ESRI), and R (a programming language emphasizing statistical and graphical work, written in the RStudio IDE). 
+
+[State and Transition Modeling in SyncroSim](#stsmssim)
+
+[An Explanation of LANDFIRE's Biophysical Settings](#bps)

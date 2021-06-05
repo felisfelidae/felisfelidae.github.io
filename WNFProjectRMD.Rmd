@@ -1,0 +1,33 @@
+# Works Referenced
+
+1. Hall, K.R.; Anantharaman, R.; Landau, V.A.; Clark, M.; Dickson, B.G.; Jones, A.; Platt, J.; Edelman, A.; Shah, V.B. Circuitscape in Julia: Empowering Dynamic Approaches to Connectivity Assessment. Land 2021, 10, 301. https://doi.org/10.3390/land10030301 
+2. Zeller, K.A.; Lewsion, R.; Fletcher, R.J.; Tulbure, M.G.; Jennings, M.K. Understanding the importance of dynamic landscape connectivity. Land 2020, 9, 303, https://doi.org/10.3390/land9090303
+3. Farley, S.S.; Dawson, A.; Goring, S.J.; Williams, J.W. Situating ecology as a big-data science: current advances, challenges, and solutions. Bioscience 2018, 68, 563-576, https://doi.org/10.1093/biosci/biy068
+4. Runting, R.K.; Phinn, S.; Xie, Z.; Venter, O.; Watson, J.E.M. Opportunities for big data in conservation and sustainability. Nat. Commun. 2020, 11, 2003, https://doi.org/10.1038/s41467-020-15870-0
+5. Gomes, C.; Dietterich, T.; Barrett, C.; Conrad, J.; Dilkina, B.; Ermon, S.; Fang, F.; Farnsworth, A.; Fern, A.; Fern, X., et al. Computational sustainability: Computing for a better world and a sustainable future. Commun. ACM 2019, 62, 56-65, https://doi.org/10.1145/3339399
+6. Keeley, A.T.H.; Ackerly, D.D.; Cameron, D.R.; Heller, N.E.; Huber, P.R.; Schloss, C.A.; Thorne, J.H.; Merenlender, A.M. New concepts, models, and assessments of climate-wise connectivity. Environ. Res. Lett. 2018, 13, 073002, https://doi.org/10.1088/1748-9326/aacb85
+7. McRae, B.H. (2006), ISOLATION BY RESISTANCE. Evolution, 60: 1551-1561. https://doi.org/10.1111/j.0014-3820.2006.tb00500.x
+8. McRae, B.H., Dickson, B.G., Keitt, T.H. and Shah, V.B. (2008), USING CIRCUIT THEORY TO MODEL CONNECTIVITY IN ECOLOGY, EVOLUTION, AND CONSERVATION. Ecology, 89: 2712-2724. https://doi.org/10.1890/07-1861.1
+9. Bestelmeyer, Brandon T., Andrew Ash, Joel R. Brown, Bulgamaa Densambuu, María Fernández-Giménez, Jamin Johanson, Matthew Levi, et al. “State and Transition Models: Theory, Applications, and Challenges.” In Rangeland Systems: Processes, Management and Challenges, edited by David D. Briske, 303–45. Cham: Springer International Publishing, 2017. https://doi.org/10.1007/978-3-319-46709-2_9
+10. McRae, B.H., V.B. Shah, and T.K. Mohapatra. 2013. Circuitscape 4 User Guide.The Nature Conservancy. http://www.circuitscape.org
+11. Marx, A.J., Wang, C., Sefair, J.A., Acevedo, M.A. and Fletcher, R.J., Jr. (2020), samc: an R package for connectivity modeling with spatial absorbing Markov chains. Ecography, 43: 518-527. https://doi.org/10.1111/ecog.04891
+12. Urban, D.L., Minor, E.S., Treml, E.A. and Schick, R.S. (2009), Graph models of habitat mosaics. Ecology Letters, 12: 260-273. https://doi.org/10.1111/j.1461-0248.2008.01271.x
+13. McRae BH, Hall SA, Beier P, Theobald DM (2012) Where to Restore Ecological Connectivity? Detecting Barriers and Quantifying Restoration Benefits. PLOS ONE 7(12): e52604. https://doi.org/10.1371/journal.pone.0052604
+14. Wade, Alisa A.; McKelvey, Kevin S.; Schwartz, Michael K. 2015. Resistance-surface-based wildlife conservation connectivity modeling: Summary of efforts in the United States and guide for practitioners. Gen. Tech. Rep. RMRS-GTR-333. Fort Collins, CO: U.S. Department of Agriculture, Forest Service, Rocky Mountain Research Station. 93
+15. Zeller, Katherine & McGarigal, Kevin & Whiteley, Andrew. (2012). Estimating landscape resistance to movement: A review. Landscape Ecology. 27. 10.1007/s10980-012-9737-0
+16. Gregory J. Nowacki, Marc D. Abrams, The Demise of Fire and “Mesophication” of Forests in the Eastern United States, BioScience, Volume 58, Issue 2, February 2008, Pages 123–138, https://doi.org/10.1641/B580207
+17. Provencher, L.; Badik, K.;Anderson, T.; Tuhy, J.; Fletcher, D.;York, E.; Byer, S. Landscape Conservation Forecasting for Data-Poor at-Risk Species on Western Public Lands, United States.Climate2021,9, 79.  https://doi.org/10.3390/cli9050079
+18. Beier, P., W. Spencer, R. Baldwin, and B.H. McRae. 2011. Best science practices for developing regional connectivity maps. Conservation Biology 25(5): 879-892
+19. Keeley, A.T.H.; Beier, P.; Creech, T.; Jones, K.; Jongman, R.H.; Stonecipher, G.; Tabor, G.M. Thirty years of connectivity conservation planning: An assessment of factors influencing plan implementation. Environ. Res. Lett. 2019, 14, 103001
+20. Jennings, M.K.; Zeller, K.A.; Lewison, R.L. Supporting Adaptive Connectivity in Dynamic Landscapes. Land 2020, 9, 295. https://doi.org/10.3390/land9090295 
+21. Landau, V.A., V.B. Shah, R. Anantharaman, and K.R. Hall. 2021. Omniscape.jl: Software to compute omnidirectional landscape connectivity. Journal of Open Source Software, 6(57), 2829.
+22. McRae, B. H., K. Popper, A. Jones, M. Schindel, S. Buttrick, K. R. Hall, R. S. Unnasch, and J. Platt. 2016. Conserving Nature’s Stage: Mapping Omnidirectional Connectivity for Resilient Terrestrial Landscapes in the Pacific Northwest. The Nature Conservancy, Portland, Oregon.
+23. Peterman, W.E., G.M. Connette, R.D. Semlitsch, and L.S. Eggert. 2014. Ecological resistance surfaces predict fine-scale genetic differentiation in a terrestrial woodland salamander. Molecular Ecology 23:2402–2413. PDF
+24. Peterman, W. E. 2018. ResistanceGA: An R package for the optimization of resistance surfaces using genetic algorithms. Methods in Ecology and Evolution doi:10.1111/2041-210X.12984. PDF
+25. Addicott, J., Aho, J., Antolin, M., Padilla, D., Richardson, J., & Soluk, D. (1987). Ecological Neighborhoods: Scaling Environmental Patterns. Oikos, 49(3), 340-346. doi:10.2307/3565770
+26. Apex Resource Management Solutions (2014). ST-Sim state-and-transition simulation model software. Retrieved from http://www.apexrms.com/stsm
+27. Daniel, Colin J.; Frid, Leonardo. 2012. Predicting landscape vegetation dynamics using state-and-transition simulation models. In: Kerns, Becky K.; Shlisky, Ayn J.; Daniel, Colin J., tech. eds. Proceedings of the First Landscape State-and-Transition Simulation Modeling Conference, June 14–16, 2011, Portland, Oregon. Gen. Tech. Rep. PNW-GTR-869. Portland, OR: U.S. Department of Agriculture, Forest Service, Pacific Northwest Research Station: 5-22.
+28. LANDFIRE, 2016, Existing Vegetation Type Layer, Existing Vegetation Cover Layer, Biophysical Setting Layer, LANDFIRE 2.0.0, U.S. Department of the Interior, Geological Survey. Accessed May 2021 at https://landfire.gov/viewer/
+29. LANDFIRE, 2016, BpS Descriptions, State and Transition Models, LANDFIRE 2.0.0, U.S. Department of the Interior, Geological Survey. Accessed April-May 2021 at https://landfire.gov/bps-models.php
+
+All graphs made in SyncroSim.
