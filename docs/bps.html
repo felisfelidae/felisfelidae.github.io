@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="" xml:lang="">
+<head>
+
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <title>Section 4 Biophysical Settings | Wayne National Forest Modeling Project</title>
+  <meta name="description" content="Section 4 Biophysical Settings | Wayne National Forest Modeling Project" />
+  <meta name="generator" content="bookdown 0.22 and GitBook 2.6.7" />
+
+  <meta property="og:title" content="Section 4 Biophysical Settings | Wayne National Forest Modeling Project" />
+  <meta property="og:type" content="book" />
+  
+  
+  
+  
+
+  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:title" content="Section 4 Biophysical Settings | Wayne National Forest Modeling Project" />
+  
+  
+  
+
+<meta name="author" content="Avery Merritt" />
+
+
+<meta name="date" content="2021-06-04" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-status-bar-style" content="black" />
+  
+  
+<link rel="prev" href="stsmssim.html"/>
+<link rel="next" href="nspatial.html"/>
+<script src="libs/header-attrs-2.7/header-attrs.js"></script>
+<script src="libs/jquery-2.2.3/jquery.min.js"></script>
+<link href="libs/gitbook-2.6.7/css/style.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-table.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-bookdown.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-highlight.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-search.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-fontsettings.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-clipboard.css" rel="stylesheet" />
+
+
+
+
+
+
+
+
+
+<link href="libs/anchor-sections-1.0.1/anchor-sections.css" rel="stylesheet" />
+<script src="libs/anchor-sections-1.0.1/anchor-sections.js"></script>
+
+
+
+
+<link rel="stylesheet" href="style.css" type="text/css" />
+</head>
+
+<body>
+
+
+
+  <div class="book without-animation with-summary font-size-2 font-family-1" data-basepath=".">
+
+    <div class="book-summary">
+      <nav role="navigation">
+
+<ul class="summary">
+<li class="chapter" data-level="1" data-path="index.html"><a href="index.html"><i class="fa fa-check"></i><b>1</b> Introduction</a></li>
+<li class="chapter" data-level="2" data-path="overview.html"><a href="overview.html"><i class="fa fa-check"></i><b>2</b> Overview of the Wayne National Forest</a></li>
+<li class="chapter" data-level="3" data-path="stsmssim.html"><a href="stsmssim.html"><i class="fa fa-check"></i><b>3</b> State and Transition Simulation Modeling in SyncroSim</a></li>
+<li class="chapter" data-level="4" data-path="bps.html"><a href="bps.html"><i class="fa fa-check"></i><b>4</b> Biophysical Settings</a>
+<ul>
+<li class="chapter" data-level="4.1" data-path="bps.html"><a href="bps.html#acdow"><i class="fa fa-check"></i><b>4.1</b> Allegheny-Cumberland Dry Oak Forest and Woodland (BpS 13170_48_53)</a>
+<ul>
+<li class="chapter" data-level="4.1.1" data-path="bps.html"><a href="bps.html#early1all"><i class="fa fa-check"></i><b>4.1.1</b> Early1:All</a></li>
+<li class="chapter" data-level="4.1.2" data-path="bps.html"><a href="bps.html#mid1cls"><i class="fa fa-check"></i><b>4.1.2</b> Mid1:Cls</a></li>
+<li class="chapter" data-level="4.1.3" data-path="bps.html"><a href="bps.html#mid1open"><i class="fa fa-check"></i><b>4.1.3</b> Mid1:Open</a></li>
+<li class="chapter" data-level="4.1.4" data-path="bps.html"><a href="bps.html#late1cls"><i class="fa fa-check"></i><b>4.1.4</b> Late1:Cls</a></li>
+<li class="chapter" data-level="4.1.5" data-path="bps.html"><a href="bps.html#late2cls"><i class="fa fa-check"></i><b>4.1.5</b> Late2:Cls</a></li>
+</ul></li>
+</ul></li>
+<li class="chapter" data-level="5" data-path="nspatial.html"><a href="nspatial.html"><i class="fa fa-check"></i><b>5</b> Non-Spatial Work</a>
+<ul>
+<li class="chapter" data-level="5.1" data-path="nspatial.html"><a href="nspatial.html#future-work"><i class="fa fa-check"></i><b>5.1</b> Future Work</a></li>
+</ul></li>
+<li class="chapter" data-level="6" data-path="spatial.html"><a href="spatial.html"><i class="fa fa-check"></i><b>6</b> Spatial Modeling</a></li>
+<li class="chapter" data-level="7" data-path="rssim.html"><a href="rssim.html"><i class="fa fa-check"></i><b>7</b> SyncroSim in R</a></li>
+<li class="chapter" data-level="8" data-path="next.html"><a href="next.html"><i class="fa fa-check"></i><b>8</b> Next Steps</a></li>
+<li class="chapter" data-level="9" data-path="works-referenced.html"><a href="works-referenced.html"><i class="fa fa-check"></i><b>9</b> Works Referenced</a></li>
+<li class="divider"></li>
+<li><a href="https://github.com/rstudio/bookdown" target="blank">Published with bookdown</a></li>
+
+</ul>
+
+      </nav>
+    </div>
+
+    <div class="book-body">
+      <div class="body-inner">
+        <div class="book-header" role="navigation">
+          <h1>
+            <i class="fa fa-circle-o-notch fa-spin"></i><a href="./">Wayne National Forest Modeling Project</a>
+          </h1>
+        </div>
+
+        <div class="page-wrapper" tabindex="-1" role="main">
+          <div class="page-inner">
+
+            <section class="normal" id="section-">
+<div id="bps" class="section level1" number="4">
+<h1><span class="header-section-number">Section 4</span> Biophysical Settings</h1>
+<p>The landscape rasters used in this project were produced by the LANDFIRE project, a joint effort between the U.S. Department of Agriculture Forest Service and the U.S. Department of the Interior. The stated mission of the LANDFIRE project is to “…produce consistent, comprehensive, geospatial data and databases that describe vegetation, wildland fuel, and fire regimes across the United States and insular areas.”</p>
+<p>As part of this work, LANDFIRE has produced a series of Biophysical Settings: pairings of both maps and documents spanning the United States, which describe (as best it can be reconstructed) the composition and coverage of vegetation as it was before the arrival of European colonists. The larger guiding areas for this work are defined in the Ecological Systems classifications by NatureServe.</p>
+<p>Biophysical settings, or BpS, as LANDFIRE calls them, include between three and five vegetation class states described in terms of qualitative and quantitative presence on the landscape, as well as through the transitions between them, emphasizing transitions of succession and those mediated by fire. These class states are categorized across different biophysical settings by a combination of tags: “Early,” “Mid,” or “Late”; “1,” “2,” or “3,” and “all,” “open,” or “closed.” An early succesional class made up of native grasses might be labeled “Early1:All” across a number of biophysical settings, even when the specific species involved differ. BpS have been constructed with a combination of current geospatial data, historical data, and expert input, and are available to the public at <a href="https://landfire.gov/" class="uri">https://landfire.gov/</a>.</p>
+<div id="acdow" class="section level2" number="4.1">
+<h2><span class="header-section-number">4.1</span> Allegheny-Cumberland Dry Oak Forest and Woodland (BpS 13170_48_53)</h2>
+<div id="early1all" class="section level3" number="4.1.1">
+<h3><span class="header-section-number">4.1.1</span> Early1:All</h3>
+<p>Class A is grasslands/savanna maintained by frequently recurring fire (1-5yrs). The dominant layer lifeform is grass/herbaceous with a sparse overstory of oak or pine. These patches would typically be less than 100ac, but may have been up to 500 acres. Native Americans used these lands for hunting, and agriculture/native plant gathering. If fire is absent, tree seedlings and sprouts will establish and move the community to the mid-seral, closed stage.</p>
+</div>
+<div id="mid1cls" class="section level3" number="4.1.2">
+<h3><span class="header-section-number">4.1.2</span> Mid1:Cls</h3>
+<p>This is an early tree regeneration (root and stump sprouts) phase; fire frequency is about 3-9yrs. Any area that does not burn frequently is probably too moist and will be populated by mixed-mesophytic tree species. Class B needs to have some surface fire to remove the more mesic (ACRU, ACSA, LITU, FAGR) seedlings and saplings from the understory and remove some of the oaks and hickories as well. Otherwise, you cannot get to the open woodland/savanna stages. In the absence of these fires, these communities will move to the late-seral closed, mixed mesophytic class (Class E).</p>
+<p>Areas that receive frequent surface fires will be populated by fire-adapted species such as oaks and hickories.</p>
+</div>
+<div id="mid1open" class="section level3" number="4.1.3">
+<h3><span class="header-section-number">4.1.3</span> Mid1:Open</h3>
+<p>This class is defined as the mid-seral open oak-hickory savannas and woodlands with a fire return interval of 5-15yrs.</p>
+</div>
+<div id="late1cls" class="section level3" number="4.1.4">
+<h3><span class="header-section-number">4.1.4</span> Late1:Cls</h3>
+<p>Class D is defined as a late seral closed canopy oak-hickory forest. Open understories of oak seedlings exist. If the late-succession open forest type persists without any type of fire, it will eventually convert to a late-succession mixed mesophytic closed forest type. This conversion is a result of species shift from dominant oaks to dominant maple, tulip tree, and beech, which do not support fire as readily.</p>
+</div>
+<div id="late2cls" class="section level3" number="4.1.5">
+<h3><span class="header-section-number">4.1.5</span> Late2:Cls</h3>
+<p>Mixed (maple) forests develop during the absence of fire. Dense understories of shade-tolerant species develop.</p>
+
+</div>
+</div>
+</div>
+            </section>
+
+          </div>
+        </div>
+      </div>
+<a href="stsmssim.html" class="navigation navigation-prev " aria-label="Previous page"><i class="fa fa-angle-left"></i></a>
+<a href="nspatial.html" class="navigation navigation-next " aria-label="Next page"><i class="fa fa-angle-right"></i></a>
+    </div>
+  </div>
+<script src="libs/gitbook-2.6.7/js/app.min.js"></script>
+<script src="libs/gitbook-2.6.7/js/lunr.js"></script>
+<script src="libs/gitbook-2.6.7/js/clipboard.min.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-search.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-sharing.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-fontsettings.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-bookdown.js"></script>
+<script src="libs/gitbook-2.6.7/js/jquery.highlight.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-clipboard.js"></script>
+<script>
+gitbook.require(["gitbook"], function(gitbook) {
+gitbook.start({
+"sharing": {
+"github": false,
+"facebook": true,
+"twitter": true,
+"linkedin": false,
+"weibo": false,
+"instapaper": false,
+"vk": false,
+"whatsapp": false,
+"all": ["facebook", "twitter", "linkedin", "weibo", "instapaper"]
+},
+"fontsettings": {
+"theme": "white",
+"family": "sans",
+"size": 2
+},
+"edit": {
+"link": null,
+"text": null
+},
+"history": {
+"link": null,
+"text": null
+},
+"view": {
+"link": null,
+"text": null
+},
+"download": ["WNFProject.pdf", "WNFProject.epub"],
+"toc": {
+"collapse": "subsection"
+}
+});
+});
+</script>
+
+</body>
+
+</html>
